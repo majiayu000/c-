@@ -1,0 +1,6 @@
+Console.WriteLine("{0,-15} {1,-10} {2,-10}",ds.Tables["mytest"].Columns[0],
+
+ds.Tables["mytest"].Columns[1],ds.Tables["mytest"].Columns[2]);
+
+实例如上，
+{0，-15}中 0 代表第一个参数 15表示输出宽度为15个字符 -表示空格留在右边
